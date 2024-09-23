@@ -1,5 +1,7 @@
-import './css/style.css';
+import ArrayBufferConverter from './js/ArrayBufferConverter';
+import getBuffer from './js/getBuffer';
 
-import './js/app';
-
-// TODO: write your code in app.js
+const converter = new ArrayBufferConverter();
+const buffer = getBuffer();
+converter.load(buffer);
+console.log(converter.toString());
