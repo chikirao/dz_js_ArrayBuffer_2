@@ -1,4 +1,3 @@
-// src/__tests__/ArrayBufferConverter.test.js
 import ArrayBufferConverter from '../js/ArrayBufferConverter';
 import getBuffer from '../js/getBuffer';
 
